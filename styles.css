@@ -96,3 +96,8 @@ body {
   .menu-left{
     background-color: #3333cc;
   }
+
+  .choice-box label {
+    display: block;
+    margin-bottom: 10px; 
+  }
