@@ -4,6 +4,13 @@ body {
     padding: 0;
   }
   
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+  }
+  
  
   .menu-left {
     display: flex;
