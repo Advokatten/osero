@@ -30,12 +30,12 @@ body {
     width: 200px; 
   }
 
-.menu-left .choice-box {
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  padding: 20px;
-  width: 45%;
-}
+  .menu-left .choice-box {
+    background-color: #f2f2f2;/
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+  }
 
 .menu-left ol {
   list-style: none;
