@@ -24,19 +24,19 @@ body {
   width: 60%;
 }
 .menu-left .left-box {
-    background-color: #0000ff;
-    border-radius: 10px; 
-    padding: 20px; 
-    width: 200px; 
-  }
+  background-color: #0000ff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+}
 
-  .menu-left .choice-box {
-    background-color: #f2f2f2; 
-    border-radius: 10px;
-    padding: 20px;
-    width: 45%;
-    border: 2px solid #ccc; 
-  }
+.menu-left .choice-box {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  border: 2px solid #ccc;
+}
 
 .menu-left ol {
   list-style: none;
@@ -61,14 +61,14 @@ body {
 }
 
 .menu-left .step-circle {
-    width: 40px;
-    height: 40px;
-    border: 2px solid #f2f2f2; 
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
 }
 .menu-left .menu-item .step-circle {
   width: 40px;
@@ -77,13 +77,13 @@ body {
   text-align: center;
   border-radius: 50%;
   background-color: #f2f2f2;
-  margin-right: 10px; 
-  display: inline-block; 
+  margin-right: 10px;
+  display: inline-block;
 }
 
 .menu-left .menu-item .menu-text {
-  display: inline-block; 
-  vertical-align: middle; 
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .menu-left .menu-text {
@@ -102,3 +102,11 @@ body {
   margin: 5px 0 0;
   color: #666;
 }
+.choice-box {
+    background-color: #f2f2f2; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    border: 2px solid #ccc; 
+  }
+  
