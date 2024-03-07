@@ -1,55 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Marcus's Coffee</title> <!-- Corrected title spelling -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Added initial scale -->
-    <link rel="stylesheet" href="styles.css" />
-  <body>
-    <section class="menu-left">
-      <div class="menu-left">
-        <ol>
-          <li class="menu-item menu-item-current">
-            <p>1</p>
-            <div class="menu-text">
-              <p class="menu-step">STEP 1</p>
-              <p class="menu-name">Your Info</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus's Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu-container">
+            <section class="menu-left">
+                <div class="menu-left">
+                    <ol>
+                        <li class="menu-item menu-item-current">
+                            <p>1</p>
+                            <div class="menu-text">
+                                <p class="menu-step">STEP 1</p>
+                                <p class="menu-name">Your Info</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <p>2</p>
+                            <div class="menu-text">
+                                <p class="menu-step">STEP 2</p>
+                                <p class="menu-name">Select Plan</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <p>3</p>
+                            <div class="menu-text">
+                                <p class="menu-step">STEP 3</p>
+                                <p class="menu-name">Add-Ons</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <p>4</p>
+                            <div class="menu-text">
+                                <p class="menu-step">STEP 4</p>
+                                <p class="menu-name">Summary</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+            <div class="choice-box">
+                <h1>Personal Info</h1>
+                <p>Please provide your name, email address and phone number</p>
+                <label for="username">Name</label>
+                <input type="text" id="username" placeholder="e.g Stephen King">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" placeholder="e.g stephenking@gmail.com">
+                <label for="phone-number">Phone Number</label>
+                <input type="text" id="phone-number" placeholder="+1 234 45 678">
+                <button>Next Step</button>
             </div>
-          </li>
-          <li class="menu-item">
-            <p>2</p>
-            <div class="menu-text">
-              <p class="menu-step">STEP 2</p>
-              <p class="menu-name">Select Plan</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <p>3</p>
-            <div class="menu-text">
-              <p class="menu-step">STEP 3</p>
-              <p class="menu-name">Add-Ons</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <p>4</p>
-            <div class="menu-text">
-              <p class="menu-step">STEP 4</p>
-              <p class="menu-name">Summary</p>
-            </div>
-          </li>
-        </ol>
-        <div class="choice-box">
-          <h1>Personal Info</h1>
-          <p>Please provide your name, email address and phone number</p>
-          <label for="username">Name</label> <!-- Corrected label spelling -->
-          <input type="text" id="username" placeholder="e.g Stephen King" />
-          <label for="email">Email Address</label> <!-- Corrected label spelling -->
-          <input type="text" id="email" placeholder="e.g stephenking@gmail.com" />
-          <label for="phone-number">Phone Number</label> <!-- Corrected label spelling -->
-          <input type="text" id="phone-number" placeholder="+1 234 45 678" />
-          <button>Next Step</button>
         </div>
-      </div> <!-- Added closing div tag for consistency -->
-    </section>
-  </body>
+    </div>
+</body>
 </html>
