@@ -55,13 +55,14 @@
   
   .menu-left .menu-item p {
     margin: 0;
-    background-color: #eb0d0d;
+    background-color: #f2f2f2;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     line-height: 40px;
     text-align: center;
     font-weight: bold;
+    display: inline-block; 
   }
   
   .menu-left .menu-text {
