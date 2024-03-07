@@ -23,6 +23,12 @@ body {
   flex-direction: column;
   width: 60%;
 }
+.menu-left .left-box {
+    background-color: #0000ff
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 200px; 
+  }
 
 .menu-left .choice-box {
   background-color: #f2f2f2;
