@@ -63,7 +63,6 @@ body {
   align-items: center;
   margin-right: 10px;
 }
-
 .menu-left .menu-item .step-circle {
   width: 40px;
   height: 40px;
@@ -72,6 +71,12 @@ body {
   border-radius: 50%;
   background-color: #f2f2f2;
   margin-right: 10px; 
+  display: inline-block; 
+}
+
+.menu-left .menu-item .menu-text {
+  display: inline-block; 
+  vertical-align: middle; 
 }
 
 .menu-left .menu-text {
