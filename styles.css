@@ -4,15 +4,6 @@ body {
     padding: 0;
   }
   
-  .outer-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
   .menu-container {
     display: flex;
     justify-content: space-between;
@@ -25,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 60%;
+    background-color: #3333cc;
   }
   
   .menu-left .choice-box {
@@ -91,10 +83,9 @@ body {
     border-radius: 10px; 
     padding: 20px; 
     background-color: #9999ff;
+    display: flex;
+    justify-content: space-between;
     
-  }
-  .menu-left{
-    background-color: #3333cc;
   }
 
   .choice-box label {
@@ -103,4 +94,5 @@ body {
   }
   .choice-box{
     background-color: #ffffff;
+
   }
