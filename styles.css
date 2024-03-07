@@ -18,11 +18,6 @@ body {
   max-width: 800px;
 }
 
-.menu-left {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-}
 .menu-left .left-box {
     background-color: #0000ff
     border-radius: 10px; 
