@@ -47,16 +47,4 @@ document.getElementById('accountForm').addEventListener('submit', function(event
     var name = formData.get('name');
     var email = formData.get('email');
     var phone = formData.get('phone');
-    var plan = document.querySelector('.options .option.selected').innerText;
-    var options = Array.from(document.querySelectorAll('#step3 .option.selected')).map(option => option.innerText);
-    
-    document.getElementById('summaryName').innerText = name;
-    document.getElementById('summaryEmail').innerText = email;
-    document.getElementById('summaryPhone').innerText = phone;
-    document.getElementById('summaryPlan').innerText = plan;
-    document.getElementById('summaryOptions').innerText = options.join(', ');
-
-    nextStep();
-});
-
-updateStepIndicator();
+    var plan = document.querySelector('.options .option.selected').
