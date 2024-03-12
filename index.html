@@ -69,6 +69,38 @@
                 />
                 <button>Next Step</button>
               </div>
+              <div class="step" id="step2">
+                <h3>Choose a Plan:</h3>
+                <div class="options">
+                  <div class="option" onclick="selectOption(this)">Option 1</div>
+                  <div class="option" onclick="selectOption(this)">Option 2</div>
+                  <div class="option" onclick="selectOption(this)">Option 3</div>
+                </div>
+                <input type="button" onclick="prevStep()" value="Previous" />
+                <input type="button" onclick="nextStep()" value="Next" />
+              </div>
+    
+              <div class="step" id="step3">
+                <h3>Pick 3 Options:</h3>
+                <div class="options">
+                  <div class="option" onclick="selectOption(this)">Option 1</div>
+                  <div class="option" onclick="selectOption(this)">Option 2</div>
+                  <div class="option" onclick="selectOption(this)">Option 3</div>
+                </div>
+                <input type="button" onclick="prevStep()" value="Previous" />
+                <input type="button" onclick="nextStep()" value="Next" />
+              </div>
+    
+              <div class="step" id="step4">
+                <h3>Finishing Up:</h3>
+                <p>Name: <span id="summaryName"></span></p>
+                <p>Email: <span id="summaryEmail"></span></p>
+                <p>Phone: <span id="summaryPhone"></span></p>
+                <p>Chosen Plan: <span id="summaryPlan"></span></p>
+                <p>Options: <span id="summaryOptions"></span></p>
+                <input type="button" onclick="prevStep()" value="Previous" />
+                <input type="submit" value="Create Account" />
+              </div>
             </div>
           </div>
         </div>
