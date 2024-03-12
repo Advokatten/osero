@@ -96,5 +96,21 @@
       </div>
     </div>
   </section>
+  <script>
+    function showStep(step) {
+      // Hide all steps
+      var steps = document.querySelectorAll('.step');
+      steps.forEach(function(stepElement) {
+        stepElement.style.display = 'none';
+      });
+
+      // Show the selected step
+      var selectedStep = document.getElementById('step' + step);
+      if (selectedStep) {
+        selectedStep.style.display = 'block';
+      }
+    }
+  </script>
+
 </body>
 </html>
