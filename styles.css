@@ -4,9 +4,38 @@ body {
   padding: 0;
 }
 
-.menue-selection {
+.menu-section {
   display: flex;
   justify-content: center;
   width: 100%;
   max-width: 800px;
+}
+
+.menu-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #3333cc;
+}
+.menu-step {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.menu-name {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+.step-circle {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background-color: #66ffff;
 }
