@@ -9,6 +9,9 @@ body {
   justify-content: center;
   width: 100%;
   max-width: 800px;
+  align-items: center;
+  border-radius: 50%;
+
 }
 
 .menu-left {
@@ -21,6 +24,7 @@ body {
   margin: 0;
   font-weight: bold;
   font-size: 14px;
+  justify-content: left;
 }
 
 .menu-name {
