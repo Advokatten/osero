@@ -4,95 +4,9 @@ body {
   padding: 0;
 }
 
-.menu-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 800px;
-}
-
-.menu-left {
-  display: flex;
-  flex-direction: column;
-  width: 40%; /* Adjusted width to accommodate the left box */
-  background-color: #3333cc;
-}
-
-.menu-left .left-box {
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  padding: 20px;
-  border: 2px solid #ccc;
-}
-
-.menu-left ol {
-  list-style: none;
-  padding: 0;
-}
-
-.menu-left ol li {
-  margin-bottom: 20px;
-}
-
-.menu-left .choice-box h1 {
-  margin-top: 0;
-}
-
-.menu-left .choice-box p {
-  margin-top: 5px;
-}
-
-.menu-left .menu-item {
-  display: flex;
-  align-items: center;
-}
-
-.menu-left .step-circle {
-  width: 40px;
-  height: 40px;
-  border: 2px solid #f2f2f2;
-  border-radius: 50%;
+.menue-selection {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-right: 10px;
-  background-color: #66ffff;
-}
-
-.menu-left .menu-text {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
-
-.menu-left .menu-step {
-  margin: 0;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.menu-left .menu-name {
-  margin: 5px 0 0;
-  color: #666;
-}
-
-.outer-container {
-  border: 2px solid #ccc;
-  border-radius: 10px; 
-  padding: 20px; 
-  background-color: #9999ff;
-  display: flex;
-  justify-content: space-between;
-}
-
-.choice-box label {
-  display: block;
-  margin-bottom: 10px; 
-}
-.choice-box {
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  padding: 20px;
-  border: 2px solid #ccc;
-  width: 100%; 
+  width: 100%;
+  max-width: 800px;
 }
