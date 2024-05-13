@@ -4,16 +4,6 @@ body {
   padding: 0;
 }
 
-.menu-section {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 800px;
-  align-items: center;
-  border-radius: 50%;
-
-}
-
 .menu-left {
   display: flex;
   flex-direction: column;
@@ -42,4 +32,10 @@ body {
   align-items: center;
   margin-right: 10px;
   background-color: #66ffff;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
